@@ -1,0 +1,49 @@
+
+@import url(__title/header__title.css);
+@import url(__subtitle/header__subtitle.css);
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    overflow: hidden;}
+
+  
+
+.logo__logo_place_header{
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    z-index: 5;
+  }
+
+.header__link{
+    color: #007BFF; 
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+.header__link:hover {
+    opacity:0.5;
+}
+  
+.header__main-illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    
+    z-index: 2;  
+    bottom: 0; 
+    margin-bottom: 0;
+    transform: translateY(4px);
+
+}
+.header__main-illustration_pic{
+    width: 745px;
+    height: 588px;
+    
+}

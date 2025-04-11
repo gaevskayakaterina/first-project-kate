@@ -1,0 +1,40 @@
+.video{
+    background-color:#ffffff ;
+    font-family: Arial;
+    margin: 100px auto 0;
+    
+}
+
+.video__iframes{
+    /* border: 1px solid red; */
+    /* width: 1052px;
+    height: 316px;
+    display: flex;                      
+    justify-content: space-between;      
+    flex-direction:row;   
+    /* border: 3px solid rgb(202, 32, 20);   */
+    /* margin: 0 auto 100px;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+    margin-top: 50px;  */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+
+
+}
+/* .video__iframes_video{
+    width: 515px;
+    height: 316px;
+} */
+.video__iframe {
+    width: 515px;
+    height: 316px;
+    margin-right: 20px;
+    border: 0;
+  }
+  
+.video__iframe:last-child {
+    margin-right: 0;
+}

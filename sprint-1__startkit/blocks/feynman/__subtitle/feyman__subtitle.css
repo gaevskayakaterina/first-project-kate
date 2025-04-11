@@ -1,0 +1,15 @@
+.feynman__subtitle{
+    /* border: 3px solid rgb(189, 207, 188); */
+    display: flex;
+    z-index: 5;
+    position: relative; 
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    top: 70px;
+    margin-top: 70px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    width: fit-content;
+}

@@ -1,0 +1,44 @@
+
+@import url(./__item/card__item.css);
+.cards{
+    width: 920px;
+    display: flex;                      
+    justify-content: flex-start; 
+    
+     
+    flex-direction:row;   
+    /* border: 3px solid rgb(202, 32, 20);   */
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* margin-bottom: 100px;  */
+    column-gap: 100px;
+    text-align: center;
+
+}
+
+.cards__image{
+    /* border: 3px solid rgb(202, 32, 20);  */
+    width: 160px;
+    height: 160px;
+    margin-top: 60px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.cards__title{
+    margin-top: 43px;
+    font-size: 22px;        
+    line-height: 1.15;      
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
+
+.cards__description{
+    /* border: 3px solid rgb(202, 32, 20);  */
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 16px;
+}
+
